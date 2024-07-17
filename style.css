@@ -239,6 +239,46 @@ border-radius: 5px;
         background-color: white;
         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.2);
     }
+    .Pic2{
+      height: auto;
+      width: 280px;
+      margin-bottom: -200px;
+      margin-top: 40px;
+      align-items: center;
+      border-radius: 8%;
+      margin-top: 100px;
+      position: relative;
+      justify-content: center;
+    }
+    .navbar{
+      margin-top: 0px;
+    }
+    #mhed{
+      margin-top: 450px;
+    }
+    .nav-list{
+      margin-top: 20px;
+      position: relative;
+      top: 50px;
+    }
+    #smblock img{
+      display: none
+    }
+    #smblock li{
+      text-align: center;
+      margin-left: -220px;
+    }
+    #smblock  hr{
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+    #smblock{
+      align-items: center;
+    }
+    #ul{
+      width: 320px;
+    }
   }
 
   
