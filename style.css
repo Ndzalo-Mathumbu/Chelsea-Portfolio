@@ -95,6 +95,8 @@ border-radius: 5px;
   
   width: 550px;
     border: 2px solid black;
+    position: relative;
+    top: 10px;
 }
 #btn2{
     margin-left: 40px;
@@ -124,13 +126,13 @@ border-radius: 5px;
     font-family: "Libre Bodoni", serif;
 }
 
-#bt11{
+#bt1{
     background-color: white;
     border: 5px solid #d3b289;
     color: #d3b289; 
 }
 
-#bt22{
+#bt2{
     background-color: #d3b289;
     color: white;
     border: 5px solid #d3b289; 
@@ -339,6 +341,16 @@ footer{
     opacity: 0.7;
     transition: 0.5s;
 
+}
+.iconsse{
+  width: 55px;
+  height: 55px;
+  position: relative;
+  top: 25px;
+}
+.fulldd{
+  position: relative;
+  right: 15px;
 }
 .footerNav ul li a:hover{
     opacity: 1;

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  </head>
+  <body>
+    <img class="logo" src="Web Logo.png">
+	<nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="#">About Me</a></li>
+            <li class="nav-item"><a href="price.html">Pricing/Rates</a></li>
+            <li class="nav-item"><a href="contact.html">Get In Touch</a></li>
+        </ul>
+    </nav> 
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Get In Touch :</h3>
+          <p class="text">
+            To reach out to Chelsea, you may use the contact information provided below. Alternatively, you can enter your own details, and she will contact you as soon as possible.
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="email.png" class="icon" alt="" />
+              <p>chelseamasinga@gmail.com</p>
+            </div>
+            <div class="information">
+              <img src="phone.png" class="icon" alt="" />
+              <p>084-669-4046</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Social Media :</p>
+            <div class="social-icons">
+              <a href="#">
+                <img src="nstagram_icon.png" alt="" class="iconss">
+              </a>
+              <a href="#">
+                <img src="tik-tok.png" alt="" class="iconss">
+              </a>
+              <a href="#">
+                <img src="youtube.png" alt="" class="iconss">
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="https://api.web3forms.com/submit" method="POST" autocomplete="off" id="myform">
+            <h3 class="title">Enter Your Details</h3>
+            <div class="input-container">
+                <input type="hidden" name="access_key" value="463c2c1f-f37e-4e9a-803f-cc560a1a64d1">
+                <input type="hidden" name="from_name" value="Portfolio Website">
+              <input type="text" name="name" class="input"  placeholder="Name & Surname" id="Username" required/>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" placeholder="Email" id="Email"/>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" placeholder="Phone" id="Phone" required/>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input" placeholder="How may Chelsea assist you?" id="message"></textarea>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="contact.js"></script>
+    <script src="https://kit.fontawesome.com/e7b7745881.js" crossorigin="anonymous"></script>
+  </body>
+  <footer>
+    <div class="footerContainer">
+        <div class="socialIcons">
+            
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul><li><a href="">Home</a></li>
+                <li><a href="">Send Email</a></li>
+                <li><a href="">About Me</a></li>
+                <li><a href="">Get In Touch</a></li>
+                <li><a href="">Prices</a></li>
+            </ul>
+        </div>
+        
+    </div>
+	<hr id="ffl">
+    <div class="footerBottom">
+        <p>Copyright &copy;2024; Designed & Coded by <span class="designer"><img src="dd logo.png" class="iconsse"><a class="fulldd">Digital Dynamics</a></span></p>
+    </div>
+</footer>
+</html>
